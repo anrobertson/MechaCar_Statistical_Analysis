@@ -18,3 +18,16 @@ mpg = 6.27 * vehicle_length + 1.25e-3 * vehicle_weigth + 6.88e-2 * spoiler_angle
 ![](images/linearreg.png)
 
 ## Summary Statistics on Suspension Coils
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The design specs are shown with a global variance of 62.3 psi. On the lot summary data frame, Lot 1 and Lot 2 have variances of 0.98 and 7.5 psi. The Lot 3 is out of specs with a variance of 170.3 psi.</br>
+
+All of the manufacturing lots:</br>
+![](images/totalsummary.png)</br>
+
+Per manufacturing lot:</br>
+![](images/lotsummary.png)
+
+
+
+
+
