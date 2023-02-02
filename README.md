@@ -1,4 +1,9 @@
-# MechaCar_Statistical_Analysis
+# MechaCar Statistical Analysis
+
+## Resources
+* R-Studio
+* MechaCar_mpg.csv
+* Suspension_Coil.csv
 
 ## Linear Regression to Predict MPG
 
@@ -27,7 +32,38 @@ All of the manufacturing lots:</br>
 Per manufacturing lot:</br>
 ![](images/lotsummary.png)
 
+## T-Tests on Suspension Coils
+### T-Test all manufacturing lots 
+With a significance level of 0.06, our p-value of 0.069 is near the threshold. This means we don't have enough evidence to reject the null hypothesis, and we can conclude that the PSI in all manufacturing lots is comparable to the population mean of 1500 psi.</br>
 
+![](images/samplettest.png)
 
+### T-Tests per manufacturing lot
+Lot 1 has the closest comparison to the population mean, with a p-value of 1.0. Lot 2 also shows strong comparability to the population mean, with a p-value of 0.61. On the other hand, Lot 3 did not show comparability to the population mean, having a p-value of 0.04.</br>
+
+![](images/lot1.png)</br>
+![](images/lot2.png)</br>
+![](images/lot3.png)</br>
+
+## Summary
+## Study Design: MechaCar vs Competition
+
+When evaluating MechaCar against its competitors, the following data analysis metrics would be relevant to consider:
+
+* Time for MPH from x miles to y miles
+* Highway MPG
+* City MPG
+* Safety rating
+* Maintenance costs
+* How long someone owns the vehicle
+
+We can run different analysis from the data:
+### Highway MPG will determine how long someone will own their vehicle.
+* Null hypothesis: Highway mile per gallon does not effect how long someone owns a car.
+
+### MechaCar has a higher safety rating than their competitors.
+* Null hypothesis: MechaCar does not have a higher safety rating then their competitors.
+
+To perform the test, we would need data of MechaCar vehicles and its competition, all gathered in a single dataframe where each metric is a column.
 
 
